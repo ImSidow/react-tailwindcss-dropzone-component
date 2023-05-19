@@ -1,8 +1,10 @@
+import Dropzone from "./components/Dropzone";
+
 function App() {
     return (
-        <>
-            <h1> react tailwindcss dropzone </h1>
-        </>
+        <main className="h-screen flex justify-center items-center">
+            <Dropzone />
+        </main>
     );
 }
 

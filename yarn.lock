@@ -439,6 +439,20 @@
   resolved "https://registry.yarnpkg.com/@swc/helpers/-/helpers-0.2.14.tgz#20288c3627442339dd3d743c944f7043ee3590f0"
   integrity sha512-wpCQMhf5p5GhNg2MmGKXzUNwxe7zRiCsmqYsamez2beP7mKPCSiu+BjZcdN95yYSzO857kr0VfQewmGpS77nqA==
 
+"@types/dropzone@^5.7.4":
+  version "5.7.4"
+  resolved "https://registry.yarnpkg.com/@types/dropzone/-/dropzone-5.7.4.tgz#667e6f22fac6428db7553663fd1e31547d994161"
+  integrity sha512-9kLJ2YAmVRWYrHvDoa95pQzHF0HUMKcznsS7FM1Mht5Yieec+HMB6Ybfm+ocvLjvFCvgyYGFTp4nzNFxhZmo3g==
+  dependencies:
+    "@types/jquery" "*"
+
+"@types/jquery@*":
+  version "3.5.16"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.5.16.tgz#632131baf30951915b0317d48c98e9890bdf051d"
+  integrity sha512-bsI7y4ZgeMkmpG9OM710RRzDFp+w4P1RGiIt30C1mSBT+ExCleeh4HObwgArnDFELmRrOpXgSYN9VF1hj+f1lw==
+  dependencies:
+    "@types/sizzle" "*"
+
 "@types/json-schema@^7.0.9":
   version "7.0.11"
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.11.tgz#d421b6c527a3037f7c84433fd2c4229e016863d3"
@@ -474,6 +488,11 @@
   version "7.5.0"
   resolved "https://registry.yarnpkg.com/@types/semver/-/semver-7.5.0.tgz#591c1ce3a702c45ee15f47a42ade72c2fd78978a"
   integrity sha512-G8hZ6XJiHnuhQKR7ZmysCeJWE08o8T0AXtk5darsCaTVsYZhhgUrq53jizaR2FvsoeCwJhlmwTjkXBY5Pn/ZHw==
+
+"@types/sizzle@*":
+  version "2.3.3"
+  resolved "https://registry.yarnpkg.com/@types/sizzle/-/sizzle-2.3.3.tgz#ff5e2f1902969d305225a047c8a0fd5c915cebef"
+  integrity sha512-JYM8x9EGF163bEyhdJBpR2QX1R5naCJHC8ucJylJ3w9/CVBaskdQ8WqBf8MmQrd1kRvp/a4TS8HJ+bxzR7ZJYQ==
 
 "@typescript-eslint/eslint-plugin@^5.57.1":
   version "5.59.6"
